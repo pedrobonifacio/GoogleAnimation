@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    background-color: #323639;
+}
+
+.diva {
+      width: 100px;
+      height: 100px;
+      font-size: 300px;
+      color:#4285f4 ;
+      background: rgba(255,255,255,0.0);
+      -webkit-transition: width 2s, height 2s,font-size 3.5s,margin-left 2.9s, -webkit-transform 2.5s; /* Safari */
+      transition: width 2s, height 2s,font-size 3.5s,margin-left 2.9s, transform 2.5s;
+      position: absolute; 
+      -webkit-transform: rotate(360deg); /* Safari */
+      transform: rotate(360deg);  
+      animation-name: fade;
+      animation-duration: 2s;
+      margin-left: 20px;
+    text-shadow: rgba(66,133,244,0.9) 0 0 2px;
+}
+.divb {
+      width: 100px;
+      height: 100px;
+      color: #ea4335;
+      font-size: 300px;
+      background: rgba(255,255,255,0.0);
+      -webkit-transition: width 2s, height 2s,font-size 3.7s,margin-left 3.1s,color 2s, -webkit-transform 2.5s; /* Safari */       transition: width 2s, height 2s,font-size, 2smargin-left 2s, transform 2s;
+      transition: width 2s, height 2s,font-size 3.7s,margin-left 3.1s, transform 2.5s;
+      position: absolute; 
+      -webkit-transform: rotate(360deg); /* Safari */
+      transform: rotate(360deg);
+      margin-left: 250px;
+      animation-name: fade;
+      animation-duration: 2s;
+    text-shadow: rgba(234,67,53,0.9) 0 0 2px;
+}
+.divc {
+      width: 100px;
+      height: 100px;
+      color: #fbbc05;
+      font-size: 300px;
+      background: rgba(255,255,255,0.0);
+      -webkit-transition: width 2s, height 2s,font-size 3.9s,margin-left 3.3s, -webkit-transform 2.5s; /* Safari */       transition: width 2s, height 2s,font-size, 2smargin-left 2s, transform 2s;
+      transition: width 2s, height 2s,font-size 3.9s,margin-left 3.3s, transform 2.5s;
+      position: absolute; 
+      -webkit-transform: rotate(360deg); /* Safari */
+      transform: rotate(360deg);
+      margin-left: 410px;
+      animation-name: fade;
+      animation-duration: 2s;
+      text-shadow: rgba(251,188,5,0.9) 0 0 2px;
+}.divd {
+      width: 100px;
+      height: 100px;
+      color: #4285f4;
+      font-size: 300px;
+      background: rgba(255,255,255,0.0);
+      -webkit-transition: width 2s, height 2s,font-size 4.1s,margin-left 3.5s, -webkit-transform 2.5s; /* Safari */       transition: width 2s, height 2s,font-size, 2smargin-left 2s, transform 2s;
+      transition: width 2s, height 2s,font-size 4.1s,margin-left 3.5s, transform 2.5s;
+      position: absolute; 
+      -webkit-transform: rotate(360deg); /* Safari */
+      transform: rotate(360deg);
+      margin-left: 570px;
+      animation-name: fade;
+      animation-duration: 2s;
+      text-shadow: rgba(66,133,244,0.9) 0 0 2px;
+      
+}.dive {
+      width: 100px;
+      height: 100px;
+      color: #34a853;
+      font-size: 300px;
+      background: rgba(255,255,255,0.0);
+      -webkit-transition: width 2s, height 2s,font-size 4.3s,margin-left 3.7s, -webkit-transform 2.5s; /* Safari */       transition: width 2s, height 2s,font-size, 2smargin-left 2s, transform 2s;
+      transition: width 2s, height 2s,font-size 4.5s,margin-left 3.7s, transform 2.5s;
+      position: absolute; 
+      -webkit-transform: rotate(360deg); /* Safari */
+      transform: rotate(360deg);
+      margin-left: 730px;
+      animation-name: fade;
+      animation-duration: 2s;
+      text-shadow: rgba(52,168,83,0.9) 0 0 2px;
+      
+}.divf {
+      width: 100px;
+      height: 100px;
+      color: #ea4335;
+      font-size: 300px;
+      background: rgba(255,255,255,0.0);
+      -webkit-transition: width 2s, height 2s,font-size 4.7s,margin-left 3.75s, -webkit-transform 2.5s; /* Safari */       transition: width 2s, height 2s,font-size, 2smargin-left 2s, transform 2s;
+      transition: width 2s, height 2s,font-size 4.7s,margin-left 3.75s, transform 2.5s,;
+      position: absolute; 
+      -webkit-transform: rotate(360deg); /* Safari */
+      transform: rotate(342deg);
+      margin-left: 725px;
+      animation-name: fade;
+      animation-duration: 2s;
+      text-shadow: rgba(234,67,53,0.9) 0 0 2px;
+      margin-top:15px;
+      
+}
+@keyframes fade{
+    from {
+        opacity: 0;
+        
+    }
+    to {
+        opacity: 1;
+        
+    }
+}
+
+
+main {
+    margin-top: 100px;
+    width: 80%;
+	margin-left: 150px;
+    font-family: "product-sans-regular";
+    text-rendering: optimizeLegibility;
+    
+}
+@font-face {
+      font-family: "product-sans-regular";
+      src: url("Product Sans Regular.ttf") format("truetype");
+      }

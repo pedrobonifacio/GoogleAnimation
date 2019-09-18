@@ -1,3 +1,9 @@
 # GoogleAnimation
-Google Logo Animation    CSS and HTML
-! [] (GoogleAnimation.gif)
+
+    
+     Google Logo Animation   
+
+![GoogleAnimation](gif/GoogleAnimation.gif)
+
+
+CSS and HTML
